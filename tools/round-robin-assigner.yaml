@@ -1,0 +1,18 @@
+name: round-robin-assigner
+description: Assigns lead to sales account executive in fair round-robin rotation
+version: 1.0.0
+input_schema:
+  type: object
+  properties:
+    sales_reps:
+      type: string
+      description: Comma-separated list of sales representative IDs
+  required:
+    - sales_reps
+implementation:
+  type: script
+  path: round_robin_assigner.py
+  runtime: python3
+annotations:
+  read_only: true
+  idempotent: true

@@ -1,0 +1,18 @@
+name: icd-score-calculator
+description: Calculates composite Ideal Customer Profile score (0-100) based on headcount and revenue
+version: 1.0.0
+input_schema:
+  type: object
+  properties:
+    employee_count:
+      type: string
+      description: Company total employee count integer
+  required:
+    - employee_count
+implementation:
+  type: script
+  path: icd_score_calculator.py
+  runtime: python3
+annotations:
+  read_only: true
+  idempotent: true

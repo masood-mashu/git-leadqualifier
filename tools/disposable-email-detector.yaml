@@ -1,0 +1,18 @@
+name: disposable-email-detector
+description: Detects temporary disposable email domains (e.g. mailinator, tempmail, guerrilla) in lead submissions
+version: 1.0.0
+input_schema:
+  type: object
+  properties:
+    email_address:
+      type: string
+      description: Prospect email address string
+  required:
+    - email_address
+implementation:
+  type: script
+  path: disposable_email_detector.py
+  runtime: python3
+annotations:
+  read_only: true
+  idempotent: true

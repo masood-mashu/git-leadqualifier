@@ -1,0 +1,32 @@
+{
+  "agent": "git-leadqualifier",
+  "visas_earned": 4,
+  "visas": [
+    {
+      "visa": "OpenAI SDK",
+      "status": "PASSED",
+      "output_file": "d:\\hackathon\\hidevs\\git-leadqualifier\\exports\\openai\\openai_assistant_spec.json"
+    },
+    {
+      "visa": "CrewAI Framework",
+      "status": "PASSED",
+      "output_files": [
+        "d:\\hackathon\\hidevs\\git-leadqualifier\\exports\\crewai\\crewai_agent_config.json",
+        "d:\\hackathon\\hidevs\\git-leadqualifier\\exports\\crewai\\crewai_agent.py"
+      ]
+    },
+    {
+      "visa": "Claude Code / MCP",
+      "status": "PASSED",
+      "output_files": [
+        "d:\\hackathon\\hidevs\\git-leadqualifier\\exports\\claude_code\\CLAUDE.md",
+        "d:\\hackathon\\hidevs\\git-leadqualifier\\exports\\claude_code\\claude_desktop_config.json"
+      ]
+    },
+    {
+      "visa": "Lyzr Ecosystem",
+      "status": "PASSED",
+      "output_file": "d:\\hackathon\\hidevs\\git-leadqualifier\\exports\\lyzr\\lyzr_agent_config.json"
+    }
+  ]
+}
